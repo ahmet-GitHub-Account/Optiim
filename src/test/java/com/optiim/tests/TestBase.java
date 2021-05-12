@@ -81,7 +81,6 @@ public abstract class TestBase {
 
         }
 
-        //Thread.sleep(2000);
         Driver.closeDriver();
 
     }

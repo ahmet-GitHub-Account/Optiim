@@ -2,15 +2,14 @@
 <suite name="Hepsiburada Automation" verbose="1">
     <test name="Hepsiburada Test">
         <packages>
-<!--            <package name="com.optiim.tests"></package>-->
+            <package name="com.optiim.tests"></package>
         </packages>
         <classes>
-            <class name="com.optiim.tests.LoginTest"></class>
-<!--            <class name="com.optiim.tests.LoginTest">-->
-<!--                <methods>-->
-<!--                    <include name="getAllCellInOneRow"></include>-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="com.optiim.tests.LoginTest">
+                <methods>
+                    <include name="endToEnd"></include>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
