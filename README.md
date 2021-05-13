@@ -32,25 +32,28 @@ System Requirements:
 
 √ Extend Reports
 
+****************************************************************
 
+1) Unzip the project
 
-Unzip the project
+2) Reload maven dependencies from POM
 
-Reload maven dependencies from POM
+3) Go **src -> test > java > com > optiim > tests > EndToEnd
 
-Go **src -> test > java > com > optiim > tests > EndToEnd
+4) To generate "HTML Maven Cucumber Report" ;
 
-To generate "HTML Maven Cucumber Report" ;
+****************************************************************
 
-Input following maven command to verify and generate report :
+* Input following maven command to verify and generate report :
+    - mvn clean verify
 
-mvn clean verify
+* Finally, to open the report directly in default browser please run:
+    - open test-output/report.html
 
-Finally, to open the report directly in default browser please run:
-open test-output/report.html
 
 The HTML report of the execution is under :  Optiim > Screen Shot 2021-05-13 at 20.43.28.png
 
+****************************************************************
 
 TASK
 
