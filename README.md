@@ -20,17 +20,17 @@ Generating automation framework for the given task.
 
 System Requirements:
 
-Java 13 + SDK
+√ Java 13 + SDK
 
-Selenium Webdriver
+√ Selenium Webdriver
 
-Maven
+√ Maven
 
-TestNG
+√ TestNG
 
-apache.poi
+√ apache.poi
 
-Extend Reports
+√ Extend Reports
 
 
 
