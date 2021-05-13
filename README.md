@@ -19,12 +19,20 @@ QA:
 Generating automation framework for the given task.
 
 System Requirements:
+
 Java 13 + SDK
+
 Selenium Webdriver
+
 Maven
+
 TestNG
+
 apache.poi
+
 Extend Reports
+
+
 
 Unzip the project
 
