@@ -128,9 +128,6 @@ public class LoginTest extends TestBase {
         listemPage.addToBasketTheFavProduct();
 
         extentLogger.info("Beğendiklerime alınmış ürünü seç ve sepete ekle");
-
-
-
         /**
          * 13. 'Ürün sepete eklendi' popup kontrolü yapacak
          */
@@ -146,7 +143,7 @@ public class LoginTest extends TestBase {
          * 14. Sepetim sayfasına gidecek
          */
         sepetimPage.sepetimButton.click();
-        BrowserUtils.waitFor(3);
+        BrowserUtils.waitFor(7);
 
         extentLogger.info("Sepetim sayfasına git");
 
